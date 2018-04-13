@@ -15,6 +15,8 @@ export class NavBar extends Component {
 		
 			
 			<NavLink to = '/contact'>Contact</NavLink>
+			
+			<NavLink to = '/game'> Game </NavLink>
 		
 	</Navbar>
 	</HashRouter>
