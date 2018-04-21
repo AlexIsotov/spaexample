@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {NavBar} from './components/navBar';
 import {MainRoutes} from './mainRoutes/mainRoutes';
 import {Footer} from './components/Footer';
+import './App.css'
 class App extends Component {
   render() {
     return (
