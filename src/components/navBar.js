@@ -1,24 +1,24 @@
 import  React, { Component } from 'react';
-import {NavLink, HashRouter} from 'react-router-dom';
-import {Navbar} from 'reactstrap';
+import { HashRouter,Link} from 'react-router-dom';
+import {Nav,Navbar, NavItem, NavLink} from 'reactstrap';
 
 export class NavBar extends Component {
   render() {
     return (
 	<HashRouter>
-	<Navbar className= "bg-light">
+	<Nav tabs className= "bg-light">
 		
-			<NavLink to = '/'>Home</NavLink>
+			<NavLink active> <Link to = '/'>Home</Link> </NavLink>
 		
 		
-			<NavLink to = '/info'>Info</NavLink>
+			<NavLink > <Link to = '/info'>Info</Link> </NavLink>
 		
 			
-			<NavLink to = '/contact'>Contact</NavLink>
+			<NavLink > <Link to = '/contact'>Contact</Link> </NavLink>
 			
-			<NavLink to = '/game'> Game </NavLink>
+			<NavLink > <Link to = '/game'>Game</Link> </NavLink>
 		
-	</Navbar>
+	</Nav>
 	</HashRouter>
     );
   }
