@@ -8,11 +8,11 @@ class App extends Component {
     return (
       <div>
        <h1 className="jumbotron bg-info text-center m-0">Amazing header</h1>
-	   <NavBar />
-	   <div className = "container">
-			<MainRoutes />
-	   </div>
-	   <Footer />
+	     <NavBar />
+  	   <div className = "container">
+  			<MainRoutes />
+  	   </div>
+	     <Footer />
       </div>
     );
   }
